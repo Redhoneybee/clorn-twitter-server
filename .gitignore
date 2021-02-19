@@ -1,0 +1,8 @@
+# node modules
+node_modules
+
+# ts outdir
+dist 
+
+# secret key 
+.env
