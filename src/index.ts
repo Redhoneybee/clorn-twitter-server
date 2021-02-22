@@ -1,8 +1,9 @@
 import express from "express";
-import path from "path";
+import cors from "cors";
 
 const app: express.Express = express();
 
+app.use(cors());
 app.use(express.json());
 
 app.use('/', (req, res, next) => {
